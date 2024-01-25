@@ -29,5 +29,4 @@ table1 <- CreateTableOne(listvar,Heart_attack_copy,strata=c("Diabetes"))
 table1
 table1<-print(table1)
 write.csv(table1,file="population characteristics.csv")
-#changes to github
-#more changes
+
